@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 450px;
+            border: 2px solid black;
+        }
+
+        p#erro{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faca uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, repellendus modi nobis sapiente ipsum vel iusto fugiat odit animi quas velit ipsa? Suscipit, earum. Magnam quisquam dolores rem eos optio?</p>
+
+    <ul>
+        <li><a href="/ex024/pag001.html" target="frame">Primeira</a></li>
+        <li><a href="/ex024/pag002.html" target="frame">Segunda</a></li>
+        <li><a href="/ex024/pag003.html" target="frame">Terceira</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nobis architecto accusantium quam quidem nisi ratione sint ex voluptatum tempora magni laudantium molestias vero natus ea numquam nemo, enim commodi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quod dicta, quia reprehenderit dolore ipsum amet ab earum corrupti ex, iusto at aperiam, laboriosam obcaecati voluptates a quam. Ad, porro?</p>
+
+    <iframe  id="tela" name="frame" srcdoc="<h1> Escolha uma das opcoes acima.">
+        <p class="erro">Infelizmente seu navegador nao e compativel</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis tenetur saepe perspiciatis aspernatur quibusdam, voluptatum cumque perferendis molestias ipsam optio nulla debitis libero nemo cum accusamus odit porro eaque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident sit aut qui eos nisi eligendi, sed omnis eum explicabo. Facilis nesciunt adipisci labore quasi optio mollitia ipsam numquam sit eumpoi</p>
+</body>
+</html>
+
+
